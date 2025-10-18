@@ -1,0 +1,94 @@
+{
+  "spells": [
+    {
+      "id": "COLD_SNAP",
+      "name": "Cold Snap",
+      "effect": "Infuses the target with a chilling ice that causes mini-stuns and damage when they take damage. Each time the target takes damage, they are frozen in place briefly and take additional damage. Creates a very disruptive effect that interrupts channeling and prevents the target from acting smoothly.",
+      "quas": 3,
+      "wex": 0,
+      "exort": 0
+    },
+    {
+      "id": "GHOST_WALK",
+      "name": "Ghost Walk",
+      "effect": "Invoker becomes invisible and gains increased movement speed. Upon activation, Invoker enters an invisible state. Nearby enemies will be slowed when they are in proximity to Invoker. Invoker is also slowed while Ghost Walk is active. Excellent for escaping dangerous situations or initiating surprise attacks.",
+      "quas": 2,
+      "wex": 1,
+      "exort": 0
+    },
+    {
+      "id": "ICE_WALL",
+      "name": "Ice Wall",
+      "effect": "Generates a wall of solid ice directly in front of Invoker for a specific duration. The Ice Wall slows the movement speed and attack speed of any enemy unit that walks near it. This is one of Invoker's most powerful zoning and control spells, capable of blocking pathways and crippling enemies who dare to cross it.",
+      "quas": 2,
+      "wex": 0,
+      "exort": 1
+    },
+    {
+      "id": "EMP",
+      "name": "EMP",
+      "effect": "Builds up a pulsing energy at a targeted area that explodes after a short delay, draining mana from all enemy heroes within the radius. The mana drained is converted into damage. This spell is devastating against high-mana heroes and can completely shut down enemy spellcasters in team fights.",
+      "quas": 0,
+      "wex": 3,
+      "exort": 0
+    },
+    {
+      "id": "TORNADO",
+      "name": "Tornado",
+      "effect": "Unleashes a fast-moving tornado that picks up enemy units in its path, rendering them invulnerable, helpless, and interrupted for several seconds. Upon landing, enemies take damage. The tornado travels a great distance across the battlefield, making it excellent for initiating fights or disrupting enemies from range.",
+      "quas": 1,
+      "wex": 2,
+      "exort": 0
+    },
+    {
+      "id": "ALACRITY",
+      "name": "Alacrity",
+      "effect": "Infuses an allied unit with immense attack speed and bonus attack damage for a duration. This spell dramatically increases the target's damage output, making it excellent for pushing towers, fighting Roshan, or empowering carries during team fights. Can be cast on Invoker himself or allies.",
+      "quas": 0,
+      "wex": 2,
+      "exort": 1
+    },
+    {
+      "id": "SUN_STRIKE",
+      "name": "Sun Strike",
+      "effect": "Channels the power of the sun to send a catastrophic beam of light to a targeted location anywhere on the map after a brief delay. Deals pure damage divided among all enemy heroes in the area. Because the damage is pure and global, it's perfect for securing kills across the map or finishing off low-health enemies.",
+      "quas": 0,
+      "wex": 0,
+      "exort": 3
+    },
+    {
+      "id": "FORGE_SPIRIT",
+      "name": "Forge Spirit",
+      "effect": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Summoned units automatically attack Invoker's target and can be controlled independently. These spirits have the ability to reduce enemy armor with their attacks and provide additional damage in fights. At higher levels, Invoker can summon two spirits at once.",
+      "quas": 1,
+      "wex": 0,
+      "exort": 2
+    },
+    {
+      "id": "CHAOS_METEOR",
+      "name": "Chaos Meteor",
+      "effect": "Pulls a flaming meteor from space onto the point-targeted location. Upon landing, the meteor starts rolling forward in the direction Invoker is facing. As the meteor rolls, it deals heavy damage over time to enemy units it comes in contact with. Enemies will be set on fire for a short time, receiving additional burn damage.",
+      "quas": 0,
+      "wex": 1,
+      "exort": 2
+    },
+    {
+      "id": "DEAFENING_BLAST",
+      "name": "Deafening Blast",
+      "effect": "Invoker unleashes a mighty sonic blast in a cone in front of him, dealing damage to enemies hit. All affected enemy units are knocked back, disarmed (unable to attack), and pushed away from Invoker. This spell combines damage, displacement, and disarm, making it incredibly versatile for both offense and defense.",
+      "quas": 1,
+      "wex": 1,
+      "exort": 1
+    }
+  ],
+  "metadata": {
+    "hero": "Invoker",
+    "total_spells": 10,
+    "orb_types": {
+      "quas": "Ice - Grants strength and health regeneration",
+      "wex": "Storm - Grants agility, attack speed, and movement speed",
+      "exort": "Fire - Grants intelligence and attack damage"
+    },
+    "note": "Spells are created by combining three orb instances using the Invoke ability. The order of orbs does not matter, only the quantity of each type."
+  }
+}
